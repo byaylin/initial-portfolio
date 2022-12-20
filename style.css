@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(144, 167, 218);
+}
+
+header {
+    background-color: rgb(144, 167, 218);
+
+}
+
+h1 {
+    padding-top: 4%;
+    padding-left: 1%;
+    font-size: 50px;
+    color: white;
+}
+
+.navigation ol li {
+    text-align: center;
+    display: inline-flex;
+    position: relative;
+    margin-left: 150px;
+    color: white;
+}
+
+
+h2 {
+    border-right: 5px solid white;
+    text-align: left;
+    font-size: 40px;
+    width: 200px;
+}
+
+p {
+    margin-left: 32%;
+}
+
+section {
+    border-radius: 8px;
+    color: white;
+    display: inline-flex;
+    margin: 30px;
+}
+
+#work {
+    flex-flow: row wrap;
+}
+#first-work img{
+    width: 600px;
+    height: 400px;
+    border: 10px dashed rgb(226, 223, 175); 
+}
+
+figure img {
+    width: 150px;
+    height: 150px;
+    border: 10px dashed rgb(226, 223, 175);
+    margin: 5px;
+}
+
+figcaption {
+    background-color: rgb(226, 223, 175);
+    color:rgb(188, 131, 221);
+}
+
+img:hover {
+    filter: grayscale(100%);
+}
+
+a {
+    background-color: rgb(226, 223, 175);
+    color:rgb(188, 131, 221);
+}
+
+h3 {
+    background-color: rgb(226, 223, 175);
+    color:rgb(188, 131, 221);
+}
+#contact ul li {
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    margin-left: 150px;
+}
+
+footer h3 {
+    background-color: (rgb(144, 167, 218));
+    text-align: center;
+    padding: 0%;
+    color: white;
+}
