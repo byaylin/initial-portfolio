@@ -10,6 +10,13 @@ header {
 
 }
 
+#avatar {
+  width: 200px;
+  height: 200px;
+  margin-left: 50%;
+  border: 5px solid rgb(226, 223, 175);
+}
+
 h1 {
     padding-top: 4%;
     padding-left: 1%;
@@ -58,6 +65,18 @@ figure img {
     height: 150px;
     border: 10px dashed rgb(226, 223, 175);
     margin: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    #work {
+        width:  50%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #work {
+        width: 100%;
+    }
 }
 
 figcaption {
